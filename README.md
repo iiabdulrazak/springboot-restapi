@@ -1,2 +1,2 @@
-# springboot-restapi
-SpringBoot RestAPi
+# SpringBoot RestAPI
+SpringBoot RestAPI for a simple coffee system
