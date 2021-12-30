@@ -1,9 +1,21 @@
 package com.pinocchiovirus.demomicrorestapi.coffee;
 
+import javax.persistence.*;
 import java.time.LocalDate;
 
+@Entity
+@Table
 public class Cofee {
-    //this will be our model
+    @Id
+    @SequenceGenerator(
+            name = "coffee_sequence",
+            sequenceName = "coffee_sequence",
+            allocationSize = 1
+    )
+    @GeneratedValue(
+            strategy = GenerationType.SEQUENCE,
+            generator = "coffee_sequence"
+    )
     private Long id;
     private String name;
     private LocalDate dop;
