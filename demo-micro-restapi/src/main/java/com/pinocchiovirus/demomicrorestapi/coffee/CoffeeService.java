@@ -1,6 +1,5 @@
 package com.pinocchiovirus.demomicrorestapi.coffee;
 
-import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDate;
@@ -16,6 +15,18 @@ public class CoffeeService {
                         "Abdulrazak A. Osman",
                         LocalDate.of(2021, Month.DECEMBER, 29),
                         "0547079680"
+                ),
+                new Cofee(
+                        2L,
+                        "Abdulrahman A. Osman",
+                        LocalDate.of(2021, Month.DECEMBER, 30),
+                        "0546995684"
+                ),
+                new Cofee(
+                        3L,
+                        "Abdulwahab A. Osman",
+                        LocalDate.of(2021, Month.DECEMBER, 30),
+                        "0590599809"
                 )
         );
     }
