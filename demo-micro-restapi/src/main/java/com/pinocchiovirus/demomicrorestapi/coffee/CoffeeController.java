@@ -17,7 +17,7 @@ public class CoffeeController {
     }
 
     @GetMapping
-    public List<Cofee> getCoffees(){
+    public List<Coffee> getCoffees(){
         return coffeeService.getCoffees();
     }
 
